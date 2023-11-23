@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Responsive Website</title>
+
+    <!-- jQuery Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" />
+
+    <!-- Import CSS Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#home" class="logo"><span>Porto</span>folio</a>
+      <!-- <div class="menuToggle" onclick="toggleMenu();"></div> -->
+      <div id="toggle" onclick="toggleMenu();"></div>
+
+      <ul class="navigation">
+        <li><a href="#home" class="page-scroll" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" class="page-scroll" onclick="toggleMenu();">About</a></li>
+        <li><a href="#documentation" class="page-scroll" onclick="toggleMenu();">Documentation</a></li>
+        <li><a href="#services" class="page-scroll" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#testimonial" class="page-scroll" onclick="toggleMenu();">Testimonial</a></li>
+        <li><a href="#contact" class="page-scroll" onclick="toggleMenu();">Contact</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="home">
+      <div class="content">
+        <h2>Always Choose Good</h2>
+        <p>
+          we build a website to provide information related to ourselves. Which is so that readers know <br />
+          the information they get. A good website is not he who admits, but he who is chosen to be the best
+        </p>
+        <a href="#" class="btn">Our Menu</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col50">
+          <h2 class="title-satu">About <span>Us</span></h2>
+          <p>
+            Saya Muhammad Ketsar Ali Abi Wahid. Saat ini saya masih duduk dibangku sekolah, saya merupakan pelajar dari SMK AL-BASYARIAH. Saya memiliki keinginan yang kuat untuk masuk ke Perguruan Tinggi Negeri, hal ini di dorong dari
+            lingkungan teman teman saya, pengalaman kakak saya yang saat ini sudah menjadi Sarjana TI (S1), dan tidak lepas dari dukungan kedua orang tua. Dukungan dari keluargalah yang telah membangunkan tekad serta semangat saya menjadi
+            optimis dalam mewujudkan semua hal tersebut. Saya yakin terhadap diri saya sendiri untuk senantiasa belajar dengan bersungguh-sungguh, karena masa depan yang hakiki ialah masa depan yang dijemput dengan potensi yang dimilikinya.
+          </p>
+
+          <p>
+            Selama duduk dibangku sekolah, saya rutin mempergunakan waktu untuk mengikuti kegiatan Seminar dan juga mengikuti pelatihan yang sesuai dengan jurusan yang di ambil. Tujuan saya mengikuti kegiatan tersebut adalah untuk melatih
+            softskill serta untuk mendapatkan wawasan dan ilmu yang nantinya dapat saya aplikasikan secara langsung. Setelah lulus saya akan melanjutkan program studi di sebuah Perguruan Tinggi dan mengambil Fakultas Teknik Informatika.
+            Saya akan mengumpulkan banyak ilmu di Perguruan Tinggi terlebih dahulu. Dimana itu semua akan menunjang dalam karir saya kedepannya dan juga kontribusi saya ketika bekerja disebuah instansi
+          </p>
+        </div>
+        <div class="col50">
+          <div class="imgbox">
+            <img src="img/jb-2.jpg" alt="image-one" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- documentation -->
+    <section class="menu" id="documentation">
+      <div class="title">
+        <h2 class="title-dua">Document<span>ation</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgbox">
+            <a href="" class="thumbnail">
+              <img src="img/doc/1.jpg" class="satu" alt="document-satu" />
+            </a>
+          </div>
+          <!-- <div class="text">
+                    <h3>Special Salads</h3>
+                </div> -->
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <a href="" class="thumbnail">
+              <img src="img/doc/2.jpg" class="dua" alt="document-dua" />
+            </a>
+          </div>
+          <!-- <div class="text">
+                    <h3>Special Soup</h3>
+                </div> -->
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <a href="" class="thumbnail">
+              <img src="img/doc/3.jpg" class="tiga" alt="document-tiga" />
+            </a>
+          </div>
+          <!-- <div class="text">
+                    <h3>Special Pasta</h3>
+                </div> -->
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <a href="" class="thumbnail">
+              <img src="img/doc/4.jpg" class="empat" alt="document-empat" />
+            </a>
+          </div>
+          <!-- <div class="text">
+                    <h3>Special Salads</h3>
+                </div> -->
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <a href="" class="thumbnail">
+              <img src="img/doc/5.jpg" class="lima" alt="document-lima" />
+            </a>
+          </div>
+          <!-- <div class="text">
+                    <h3>Special Salads</h3>
+                </div> -->
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <a href="" class="thumbnail">
+              <img src="img/doc/6.jpg" class="enam" alt="document-enam" />
+            </a>
+          </div>
+          <!-- <div class="text">
+                    <h3>Special Salads</h3>
+                </div> -->
+        </div>
+      </div>
+      <div class="title">
+        <a href="#" class="btn">View All</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <!-- <div class="title">
+            <h2 class="titleText"><span>Our</span> Expert</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, modi.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgbox">
+                    <img src="img/expert1.jpg" alt="expert-one">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="img/expert2.jpg" alt="expert-two">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="img/expert3.jpg" alt="expert-three">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="img/expert4.jpg" alt="expert-four">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+        </div> -->
+
+      <div class="heading">
+        <h2>Our <span>Services</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iste.</p>
+      </div>
+      <div class="content">
+        <div class="servicesBx">
+          <img src="img/service/icon2.png" alt="expert-one" />
+          <h2>Cloud Architect</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique debitis maiores mollitia quaerat odit ex modi fugiat ea placeat quos!</p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/service/icon1.png" alt="expert-one" />
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique debitis maiores mollitia quaerat odit ex modi fugiat ea placeat quos!</p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/service/icon3.png" alt="expert-three" />
+          <h2>Web Development</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique debitis maiores mollitia quaerat odit ex modi fugiat ea placeat quos!</p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/service/icon4.png" alt="expert-four" />
+          <h2>Photographyy</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique debitis maiores mollitia quaerat odit ex modi fugiat ea placeat quos!</p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/service/icon5.png" alt="expert-five" />
+          <h2>Content Writing</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique debitis maiores mollitia quaerat odit ex modi fugiat ea placeat quos!</p>
+        </div>
+        <div class="servicesBx">
+          <img src="img/service/icon6.png" alt="expert-six" />
+          <h2>Video Editing</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique debitis maiores mollitia quaerat odit ex modi fugiat ea placeat quos!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+      <div class="title white">
+        <h2 class="titleText">They <span>Said</span> About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, modi.</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgbox">
+            <img src="img/nswa2.jpg" alt="testi-one" />
+          </div>
+          <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quod ipsa praesentium ea amet soluta eligendi, blanditiis excepturi fuga nihil rerum. Facilis veniam minima velit quas labore itaque repellendus eligendi?</p>
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="img/syakir2.jpg" alt="testi-two" />
+          </div>
+          <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quod ipsa praesentium ea amet soluta eligendi, blanditiis excepturi fuga nihil rerum. Facilis veniam minima velit quas labore itaque repellendus eligendi?</p>
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbox">
+            <img src="img/sandhika.jpg" alt="testi-three" />
+          </div>
+          <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quod ipsa praesentium ea amet soluta eligendi, blanditiis excepturi fuga nihil rerum. Facilis veniam minima velit quas labore itaque repellendus eligendi?</p>
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title">
+        <h1 class="titleText">Contact <span>Us</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, modi.</p>
+      </div>
+
+      <div class="content">
+        <div class="contactInfo">
+          <h2>Contact Info</h2>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>16921 Jl.Kh.Abdul Karim,<br />Pabuaran,Bojonggede,<br />Bogor</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>0851-5534-3380</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="text">
+                <h3>Email</h3>
+                <p><a href="https://www.gmail.com"> muhammadketsar1@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formBx cf">
+          <form>
+            <h3>Message Me</h3>
+            <input type="text" name="" placeholder="Masukan Nama Lengkap" />
+            <input type="text" name="" placeholder="Masukan Email" />
+            <textarea placeholder="Masukan Pesan"></textarea>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+      <!-- <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Name"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="send">
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Social Bar -->
+    <div class="social-b">
+      <a href="https://www.instagram.com/ketsaraaw_/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/muhammad.k.ali.37017/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/AawKetsar"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/channel/UCK-jMwohBO1Ips5VuTeMF4A"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!-- Tutup Social Bar -->
+
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+
+      <ul class="icons">
+        <li>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#documentation">Documentation</a></li>
+        <li><a href="#expert">Expert</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <p>&copy;All Rights Reserved | Muhammad Ketsar Ali</p>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- script icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- my script -->
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      const menuToggle = document.querySelector(".menuToggle");
+      const navigation = document.querySelector(".navigation");
+      function toggleMenu() {
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+
+      const toggle = document.getElementById("toggle");
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      };
+
+      // event pada link pada saat di klik
+      $(".page-scroll").on("click", function (e) {
+        // ambil isi href
+        var tujuan = $(this).attr("href");
+
+        //tangkap element yang bersangkutan
+        var elemenTujuan = $(tujuan);
+
+        // pindahkan scroll
+        $("html,body").animate(
+          {
+            scrollTop: elemenTujuan.offset().top - 50,
+          },
+          700,
+          "easeInOutCirc"
+        );
+
+        e.preventDefault();
+      });
+
+      $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
+
+        $(".banner h2").css({
+          transform: "translate(0px, " + wScroll / 2.2 + "%)",
+        });
+
+        $(".banner p").css({
+          transform: "translate(0px, " + wScroll / 2 + "%)",
+        });
+
+        $(".banner .btn").css({
+          transform: "translate(0px, " + wScroll / 1 + "%)",
+        });
+
+        //portfolio
+        if (wScroll > $(".menu").offset().top - 140) {
+          $(".menu .thumbnail").each(function (i) {
+            setTimeout(function () {
+              $(".menu .thumbnail").eq(i).addClass("muncul");
+            }, 300 * i + 1);
+          });
+        }
+      });
+
+      // lightGallery(document.querySelector(" .imgbox .thumbnail "));
+    </script>
+  </body>
+</html>

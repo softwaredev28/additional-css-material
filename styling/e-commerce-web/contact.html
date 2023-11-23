@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" id="scroll-up">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codes Website Design</title>
+
+    <!-- ========== swiper css ========== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- ======== my css ========  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--======== awesome icons ========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+       <!--======== navbar ========-->
+    <div class="header">
+        <!-- <div class="container"> -->
+        <header class="head-contact">
+          <a href="" class="logo"><i class="fas fa-store"></i> Design <img src="logo-footer.png" alt="" /></a>
+  
+          <form action="" class="search-form">
+            <input type="search" placeholder="Search here..." id="search-box" />
+            <label for="search-box" class="fas fa-search"></label>
+          </form>
+  
+          <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user" id="user-btn"></div>
+            <div class="fa-solid fa-moon" id="dark-mode"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+          </div>
+        </header>
+  
+        <!-- ==== sidebar === -->
+        <div class="sidebar">
+          <div class="fas fa-times" id="close-side-bar"></div>
+  
+          <div class="user">
+            <img src="img/testi/nswa1.jpg" alt="user" />
+            <h3>Naswa Aulia Sabila</h3>
+            <a href="#">Log Out</a>
+          </div>
+  
+          <nav class="navbar">
+            <a href=""><i class="fas fa-angle-right"></i> Home </a>
+            <a href=""><i class="fas fa-angle-right"></i> About </a>
+            <a href=""><i class="fas fa-angle-right"></i>Contact</a>
+            <a href=""><i class="fas fa-angle-right"></i> Login </a>
+            <a href=""><i class="fas fa-angle-right"></i> Cart </a>
+          </nav>
+        </div>
+
+        <!-- ==== contact ==== -->
+
+        <section class="contact" id="contact">
+            <h1 class="heading">Contact Us</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="img/contact.png" alt="">
+                </div>
+                <div class="form-container">
+                    <form action="">
+                        <div class="inputBox">
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+
+                        <input type="email" placeholder="Email">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Input your message "></textarea>
+                      </form>
+                      <button type="submit" onclick="openPopup()" >Send</button>
+                      <div class="popup" id="popup">
+                        <img src="img/tick.png" alt="">
+                        <h2>Thank You!</h2>
+                        <p>Your details has been successfully submitted. Thanks!</p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+
+        <!-- ==== footer ==== -->
+
+        <div class="footer">
+            <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and Ios Mobile Phone</p>
+                <img src="img/images/play-store.png" alt="" />
+                <img src="img/images/app-store.png" alt="" />
+                </div>
+                <div class="footer-col-2">
+                <div class="logo-footer">
+                    <a href="" class="logo"><i class="fas fa-store"></i> Design <img src="logo-footer.png" alt="" /></a>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque reprehenderit odio .</p>
+                </div>
+                <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Policy</a></li>
+                    <li><a href="">Join Affiliate</a></li>
+                </ul>
+                </div>
+                <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>
+                    <a href="" class="satu"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                    <a href="" class="dua"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                    <a href="" class="tiga"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                    <a href="" class="empat"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">&copy; Copyright 2022 - Ketsar Ali</p>
+            <div class="arrow-up">
+                <a href="#scroll-up">
+                <ion-icon name="caret-up-circle-outline"></ion-icon>
+                </a>
+            </div>
+            <div class="clear"></div>
+            </div>
+        </div>
+
+      <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- my js -->
+    <script>
+
+        let sideBar = document.querySelector(".sidebar");
+
+        document.querySelector("#menu-btn").onclick = () => {
+        sideBar.classList.toggle("active");
+        };
+        document.querySelector("#close-side-bar").onclick = () => {
+        sideBar.classList.remove("active");
+        };
+
+        // ==> search form
+
+        let searchForm = document.querySelector(".search-form");
+
+        document.querySelector("#search-btn").onclick = () => {
+        searchForm.classList.toggle("active");
+        };
+
+        window.onscroll = () => {
+        sideBar.classList.remove("active");
+        searchForm.classList.remove("active");
+        };
+
+    let themeToggler = document.querySelector("#dark-mode");
+
+    themeToggler.onclick = () => {
+    themeToggler.classList.toggle("fa-sun");
+    if (themeToggler.classList.contains("fa-sun")) {
+        document.querySelector("body").classList.add("active");
+    } else {
+        document.querySelector("body").classList.remove("active");
+    }
+    };
+
+    // ==> popup box
+    const popup = document.getElementById("popup");
+
+    function openPopup() {
+      popup.classList.add("open-popup");
+    }
+    function closePopup() {
+      popup.classList.remove("open-popup");
+    }
+
+    </script>
+  </body>
+</html>

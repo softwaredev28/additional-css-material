@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" id="scroll-up">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codes Website Design</title>
+
+    <!-- ========== swiper css ========== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- ========= aos css ========= -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- ======== my css ========  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--======== awesome icons ========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <!--======== navbar ========-->
+    <div class="header">
+      <!-- <div class="container"> -->
+      <header>
+        <a href="" class="logo"><i class="fas fa-store"></i> Design <img src="logo-footer.png" alt="" /></a>
+
+        <form action="" class="search-form">
+          <input type="search" placeholder="Search here..." id="search-box" />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+          <div class="fas fa-bars" id="menu-btn"></div>
+          <div class="fas fa-search" id="search-btn"></div>
+          <div class="fas fa-user" id="user-btn"></div>
+          <div class="fa-solid fa-moon fas" id="dark-mode"></div>
+          <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+
+        <div class="login-form">
+          <h2>Login</h2>
+          <form action="">
+            <input type="text" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <small>Don't have an account yet? <a href="#">Register here</a></small>
+          </form>
+          <button class="btn-login">Submit</button>
+        </div>
+      </header>
+
+      <!-- ==== sidebar === -->
+      <div class="sidebar">
+        <div class="fas fa-times" id="close-side-bar"></div>
+
+        <div class="user">
+          <img src="img/testi/nswa1.jpg" alt="user" />
+          <h3>Naswa Aulia Sabila</h3>
+          <a href="#">Log Out</a>
+        </div>
+
+        <nav class="navbar">
+          <a href=""><i class="fas fa-angle-right"></i> Home </a>
+          <a href=""><i class="fas fa-angle-right"></i> About </a>
+          <a href=""><i class="fas fa-angle-right"></i>Contact</a>
+          <a href=""><i class="fas fa-angle-right"></i> Login </a>
+          <a href=""><i class="fas fa-angle-right"></i> Cart </a>
+        </nav>
+      </div>
+      <!-- <div class="navbar">
+          <div class="logo">
+            <h1>DesignX</h1>
+          </div>
+          <nav>
+            <ul class="navlist">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Account</a></li>
+              <i class="fa-solid fa-bag-shopping"></i>
+            </ul>
+          </nav>
+        </div> -->
+      <!-- <div class="row">
+          <div class="col-2">
+          <h3>Hello, Thank You For Visiting Our Website</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, sequi nam dolorem neque quae autem asperiores tempore</p>
+          <a href="" class="btn">More &#8594;</a>
+        </div>
+        <div class="col-2 jb-icon">
+          <img src="img/icons-design-1.png" alt="" />
+        </div>
+      </div> -->
+      <!-- </div> -->
+    </div>
+
+    <!-- ==== hero image ==== -->
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide satu">
+            <div class="image" data-aos="fade-right" data-aos-duration="1800">
+              <img src="img/swiper/swiper-1.png" alt="" />
+            </div>
+            <div class="content" data-aos="fade-left" data-aos-duration="1800">
+              <span>Up To 50% Off</span>
+              <h3>Smartwatch</h3>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide dua">
+            <div class="image">
+              <img src="img/swiper/swiper-2.png" alt="" />
+            </div>
+            <div class="content">
+              <span>Up To 50% Off</span>
+              <h3>Earphone Bluetooth</h3>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide tiga">
+            <div class="image">
+              <img src="img/swiper/swiper-3.png" alt="" />
+            </div>
+            <div class="content">
+              <span>Up To 50% Off</span>
+              <h3>Softcase Iphone</h3>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide empat">
+            <div class="image">
+              <img src="img/swiper/swiper-4.png" alt="" />
+            </div>
+            <div class="content">
+              <span>Up To 50% Off</span>
+              <h3>Samsung Galaxy S21+</h3>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next tombol-swiper"></div>
+        <div class="swiper-button-prev tombol-swiper"></div>
+      </div>
+    </section>
+
+    <!--======== Brand Product ========-->
+    <div class="category">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <!-- <div class="wrap"> -->
+            <img src="img/brand/1.jpg" alt="" />
+            <!-- </div> -->
+          </div>
+          <div class="col-3">
+            <img src="img/brand/2.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="img/brand/3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--======== features & latest product ========-->
+    <div class="small-container">
+      <h2 class="title featured">Featured Product</h2>
+      <div class="row featured">
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/brand-1.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>First Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$150.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/brand-2.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Second Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$75.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/brand-3.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Third Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/brand-4.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Fourth Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$99.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+      </div>
+      <h2 class="title latest">Latest Product</h2>
+      <div class="row latest">
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/brand-1.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>First Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$150.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/brand-2.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Second Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$75.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/brand-3.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Third Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/brand-4.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Fourth Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$99.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/5.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Fourth Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <p>$15.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand//6.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Fourth Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$250.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/7.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Fourth Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$550.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="wrap">
+            <img src="img/brand/8.jpg" alt="" />
+          </div>
+          <div class="w-brand">
+            <h4>Fourth Product</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p>$25.00</p>
+            <button class="btn">Buy <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======== OFFER ======== -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row offer">
+          <div class="col-2">
+            <p>Exclusively Available On The DesignX</p>
+            <h1>Website Creation Services</h1>
+            <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut ducimus iure cupiditate distinctio obcaecati quasi. Sunt, sed a. Nam, repellendus quasi. Beatae minima incidunt tempore fuga asperiores repellendus </small>
+            <a href="">Buy Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="img/brand/web.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--======== Testimonial ========-->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-testi-3" data-aos="fade-down" data-aos-duration="1800">
+            <img src="img/testi/alwi.jpg" alt="" />
+            <h3>Alwi Yoshida Assegaf</h3>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>
+                <i class="fa-solid fa-quote-left" style="color: gray"></i>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae nulla beatae incidunt, numquam voluptatibus dolorem facilis maxime perspiciatis quidem asperiores consequuntur qui, veniam eveniet,
+              </p>
+            </div>
+          </div>
+          <div class="col-testi-3" data-aos="fade-up" data-aos-duration="1800">
+            <img src="img/testi/nswa1.jpg" alt="" />
+            <h3>Naswa Aulia Sabila</h3>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <p>
+                <i class="fa-solid fa-quote-left" style="color: gray"></i>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae nulla beatae incidunt, numquam voluptatibus dolorem facilis maxime perspiciatis quidem asperiores consequuntur qui, veniam eveniet,
+              </p>
+            </div>
+          </div>
+          <div class="col-testi-3" data-aos="fade-down" data-aos-duration="1800">
+            <img src="img/testi/sandhika.jpg" alt="" />
+            <h3>Sandhika Galih</h3>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>
+                <i class="fa-solid fa-quote-left" style="color: gray"></i>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum repudiandae nulla beatae incidunt, numquam voluptatibus dolorem facilis maxime perspiciatis quidem asperiores consequuntur qui, veniam eveniet,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==== footer ==== -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and Ios Mobile Phone</p>
+            <img src="img/images/play-store.png" alt="" />
+            <img src="img/images/app-store.png" alt="" />
+          </div>
+          <div class="footer-col-2">
+            <div class="logo-footer">
+              <a href="" class="logo"><i class="fas fa-store"></i> Design <img src="logo-footer.png" alt="" /></a>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque reprehenderit odio .</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Policy</a></li>
+              <li><a href="">Join Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>
+                <a href="" class="satu"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="" class="dua"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="" class="tiga"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="" class="empat"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">&copy; Copyright 2022 - Ketsar Ali</p>
+        <div class="arrow-up">
+          <a href="#scroll-up">
+            <ion-icon name="caret-up-circle-outline"></ion-icon>
+          </a>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <!-- load -->
+    <!-- <div class="load-container">
+      <img src="img/load.gif" alt="" />
+    </div> -->
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 170,
+      });
+    </script>
+    <!-- my js -->
+    <script src="animate.js"></script>
+  </body>
+</html>
